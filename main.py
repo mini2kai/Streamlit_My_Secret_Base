@@ -1,6 +1,5 @@
-def main():
-    print("Hello from streamlit-my-secret-base!")
+import streamlit as st
 
+st.title("Streamlit My Secret Base")
 
-if __name__ == "__main__":
-    main()
+st.write("Hello from streamlit-my-secret-base!")
