@@ -7,4 +7,4 @@ st.write("Hello from streamlit-my-secret-base!")
 st.write("Hello from streamlit-my-secret-base!!!!!!!!!!!")
 
 
-st.write("Hello from streamlit-my-secret-base!!!!!!!!!!!！！！！！")
+st.write("Hello from streamlit-my-secret-base!!!!!!!!!!!")
