@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    alice:
+      name: Alice Smith
+      password: $2b$12$s2oqXz55CAl8n78F2uWow.NHk1Icy4xYAHB2D6IGJ1zEdsTbi2mym
+    bob:
+      name: Bob Johnson
+      password: $2b$12$b.UmPazC9mToUstjHJOln.herI98b4YTmmc48lfGz6ZzLoUJkTsea
+cookie:
+  name: my_app_cookie
+  key: super_secret_key_123
+  expiry_days: 30
+preauthorized:
+  emails:
+    - admin@example.com
