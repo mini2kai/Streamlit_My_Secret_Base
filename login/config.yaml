@@ -9,7 +9,7 @@ credentials:
 cookie:
   name: my_app_cookie
   key: super_secret_key_123
-  expiry_days: 30
+  expiry_days: 1
 preauthorized:
   emails:
     - admin@example.com
