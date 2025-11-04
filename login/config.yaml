@@ -2,9 +2,11 @@ credentials:
   usernames:
     alice:
       name: Alice Smith
+      email: alice@example.com
       password: $2b$12$s2oqXz55CAl8n78F2uWow.NHk1Icy4xYAHB2D6IGJ1zEdsTbi2mym
     bob:
       name: Bob Johnson
+      email: bob@example.com
       password: $2b$12$b.UmPazC9mToUstjHJOln.herI98b4YTmmc48lfGz6ZzLoUJkTsea
 cookie:
   name: my_app_cookie
