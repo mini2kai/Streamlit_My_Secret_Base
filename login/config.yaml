@@ -1,27 +1,13 @@
 credentials:
   usernames:
-    alice:
-      name: Alice Smith
-      email: alice@example.com
-      password: $2b$12$s2oqXz55CAl8n78F2uWow.NHk1Icy4xYAHB2D6IGJ1zEdsTbi2mym
-    bob:
-      name: Bob Johnson
-      email: bob@example.com
-      password: $2b$12$b.UmPazC9mToUstjHJOln.herI98b4YTmmc48lfGz6ZzLoUJkTsea
+    zeke:
+      name: Zeked
+      email: zeke@example.com
+      password: $2b$12$5oAbJ8IF5BQfXjtqFdw3NOhW6/IRszOc3X7NB.Ir8F7QcNB//qnF2
 cookie:
   name: my_app_cookie
   key: super_secret_key_123
   expiry_days: 1
-oauth2: # Optional
-  google: # Follow instructions: https://developers.google.com/identity/protocols/oauth2
-    client_id: # To be filled
-    client_secret: # To be filled
-    redirect_uri: # URL to redirect to after OAuth2 authentication
-  microsoft: # Follow instructions: https://learn.microsoft.com/en-us/graph/auth-register-app-v2
-    client_id: # To be filled
-    client_secret: # To be filled
-    redirect_uri: # URL to redirect to after OAuth2 authentication
-    tenant_id: # To be filled
 preauthorized:
   emails:
     - admin@example.com

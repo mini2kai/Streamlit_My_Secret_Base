@@ -10,7 +10,7 @@ def generate_hash(password):
 # 为配置文件中的用户生成哈希密码
 if __name__ == "__main__":
     # 为alice用户生成哈希密码
-    alice_hash = generate_hash("alice123")
+    alice_hash = generate_hash("zeke#0419")
     print(f"Alice的密码哈希: {alice_hash}")
     
     # 为bob用户生成哈希密码
