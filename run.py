@@ -25,8 +25,8 @@ try:
         #渲染导航菜单（默认就在侧边栏）
         current_page = st.navigation(pages)
         current_page.run()  # 运行选中页面的脚本 
-    
-
+    else:
+        st.info(f'If you do not have a personal account, you can log in to experience it using the following account and password. Username: zeke | Password: zeke#0419', icon="ℹ️")
     
 
 except Exception as e:
